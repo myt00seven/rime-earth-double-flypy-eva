@@ -1,4 +1,4 @@
-# Rime输入法-地球拼音带调小鹤双拼-EVA配色
+# Rime中州韵输入法-地球拼音带调小鹤双拼-EVA配色
 
 这是一个整合了我制作的基于地球拼音的小鹤双拼方案和EVA配色的Rime中州韵输入法配置方案。
 
@@ -7,6 +7,8 @@
 EVA的配色调教使用了[Rime西米](http://kylebing.cn/tools/rime_skin_editor/)配色工具，参考了[jyota的Vim的EVA配色](http://vimcolors.com/341/eva/light)和[karminski的Sublime的EVA配色](https://github.com/karminski/EVA-theme).
 
 在Mac OSX 10.13.5 及 Rime 0.9.26.2 上测试没有问题。
+
+使用方法为把这个Repo的.yaml文件复制到用户本地的Rime配置文件夹，覆盖原文件即可。在覆盖前记得备份原文件。
 
 EVA配色的效果图如下：
 ![](./example.png)
