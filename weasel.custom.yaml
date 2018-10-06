@@ -1,0 +1,27 @@
+patch:
+  style/color_scheme: eva             # 方案命名，不能有空格
+  preset_color_schemes:
+    eva:
+      name: "新世纪福音战士／EVA"
+      author: "myt007 <myt007@gmail.com>"   # 作者信息
+      back_color: 0x00002C                  # 候选条背景色，24位色值，16进制，BGR顺序
+      border_color: 0x000000                  # 边框色
+      text_color: 0x0D55FB                  # 预选项文字颜色
+      hilited_text_color: 0x0D8DCF                  # 拼音等提示文字颜色
+      hilited_back_color: 0x00002C                  
+      hilited_candidate_text_color: 0x1AFE1F        # 第一候选项背景背景色          
+      hilited_candidate_back_color: 0x013723                  
+      candidate_text_color: 0x249021                  # 注解文字高亮
+      comment_text_color: 0x0B48FF                  # 高亮拼音 #(需要开启内嵌编码)
+      # label_color: 0x0000FF                   # 预选栏编号颜色
+      horizontal: false                        # 水平排列
+      inline_preedit: false                    # 单行显示，false双行显示
+      # candidate_format: "%c\u2005%@ \u2005"   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
+      font_point: 22                          # 候选文字大小
+      label_font_point: 20                    # 候选编号大小
+      label_font_face: "SFCompactText-Regular"# 候选词编号字体  
+      # font_face: "Lucida Grande"
+      corner_radius: 10                        # 候选条圆角
+      border_height: 12                        # 窗口边界高度，大于圆角半径才生效
+      border_width: 12                         # 窗口边界宽度，大于圆角半径才生效
+      spacing: 5
